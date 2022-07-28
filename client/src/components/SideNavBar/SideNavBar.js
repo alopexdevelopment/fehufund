@@ -82,7 +82,7 @@ class SideNavBar extends React.Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <img src={FehuLogo}></img>
+                        <img src={ FehuLogo } alt="Fehu Fund Logo"></img>
                     </Link>
                     </div>
                 </div>

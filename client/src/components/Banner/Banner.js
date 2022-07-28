@@ -8,7 +8,7 @@ class Banner extends React.Component {
                     <div className="banner-wrapper">
                         <div className="div-line"></div>
                         <div className="banner-container">
-                            <img src={ BannerImg }></img>
+                            <img alt="Green banner" src={ BannerImg }></img>
                             <p>{ this.props.title }</p>
                         </div>
                         <div className="div-line"></div>

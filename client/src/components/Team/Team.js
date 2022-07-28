@@ -1,8 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Banner from './../Banner/Banner';
 import './Team.css';
 import Scott from './scott-face.png';
-import Jeff from './jeff-face.png';
+import Ed from './ed-face.png';
 import FehuLogo from './fehu-logo-front.png';
 
 
@@ -25,7 +25,7 @@ class Team extends React.Component {
                         <div className="profiles-container">
                             <div className="profile-container">
                                 <div className="photo-container">
-                                    <img className="photo" src={Scott} alt=""></img>
+                                    <img className="photo" src={ Scott } alt="Portrait of Scott Demuth"></img>
                                 </div>
                                 <div className="profile-desc-container">
                                     <div className="profile-title-container">
@@ -36,12 +36,12 @@ class Team extends React.Component {
                             </div>
                             <div className="small-logo-wrapper-team">
                                 <div className="small-logo-vert-line-team"></div>
-                                <img className="small-logo-team" src={FehuLogo}></img>
+                                <img className="small-logo-team" src={ FehuLogo } alt="Fehu Fund Logo."></img>
                                 <div className="small-logo-vert-line-team"></div>
                             </div>
                             <div className="profile-container">
                                 <div className="photo-container">
-                                    <img className="photo hexagon" src={Jeff} alt=""></img>
+                                    <img className="photo hexagon" src={ Ed } alt="Portrait of Ed Bjørnson"></img>
                                 </div>
                                 <div className="profile-desc-container">
                                     <div className="profile-title-container">

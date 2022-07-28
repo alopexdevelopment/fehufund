@@ -8,7 +8,7 @@ class ZigZag extends React.Component {
         if (!settings) {
             return classes;
         } else {
-            Object.keys(settings).map((key) => {
+            Object.keys(settings).forEach((key) => {
                 classes += ` ${settings[key]}`;
             })
             return classes;

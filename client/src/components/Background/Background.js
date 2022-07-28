@@ -22,8 +22,11 @@ class Background extends React.Component {
             }
             this.setState(updateState);
         } else {
+            const incrementedIdx = this.state.currentBackgroundIdx + 1;
+            
             const updateState = {
-                activeBackgroundImg: this.backgroundImgClasses[this.state.currentBackgroundIdx++],
+                activeBackgroundImg: this.backgroundImgClasses[(incrementedIdx)],
+                currentBackgroundIdx: incrementedIdx
             }
             this.setState(updateState);
         }

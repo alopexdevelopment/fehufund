@@ -36,7 +36,7 @@ class About extends React.Component {
                 <div className="about-container">
                     <div className="about-quote-wrapper">
                         <div className="about-quote-container">
-                            <p>"Discovering and implementing cross-asset wealth hedging strategies within the perilous modern slash and burn ᚠinancial landscape is our specialty."</p>
+                            <p>"Discovering and implementing cross-asset wealth hedging strategies within the perilous modern slash and burn financial landscape is our specialty."</p>
                         </div>
                     </div>
                     <div className="banner-content-wrapper">
@@ -48,7 +48,7 @@ class About extends React.Component {
                                 </div>
                                 <div className="small-logo-wrapper-about">
                                     <div className="small-logo-vert-line-about"></div>
-                                    <img className="small-logo-about" src={FehuLogo}></img>
+                                    <img className="small-logo-about" src={ FehuLogo } alt="Fehu Fund Logo."></img>
                                     <div className="small-logo-vert-line-about"></div>
                                 </div>
                                 <div className="about-content">

@@ -39,7 +39,7 @@ class Form extends React.Component {
     createNewFormErrorState = (validations) => {
         let newFormErrorState = {}
 
-        Object.keys(validations).map((inputType) => {
+        Object.keys(validations).forEach((inputType) => {
             const validationResults = validations[inputType];
 
             if (validationResults === 'valid') {
