@@ -1,0 +1,29 @@
+.code {
+    background: url(./code.jpg) no-repeat center center;
+    transition: background 2s ease-in-out;
+}
+
+.stonks-two {
+    background: url(./stonks-2.jpg) no-repeat center center;
+    transition: background 2s ease-in-out;
+}
+
+.viking {
+    background: url(./viking.png) no-repeat center center;
+    transition: background 2s ease-in-out;
+}
+
+.bison {
+    background: url(./bde-bison.jpg) no-repeat center center;
+    transition: background 2s ease-in-out;
+}
+
+.background-img{
+    content: "";
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    position: absolute;
+}

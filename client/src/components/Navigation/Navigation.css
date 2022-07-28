@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+nav {
+    border-bottom: 1px #b5b5b5 solid;
+    background-color: #1d1d1d;
+    color: white;
+    position: fixed;
+    height: 4.5rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-title-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-title {
+    font-size: 2rem;
+    height: 2rem;
+    user-select: none;
+    font-family: 'Lato';
+    font-size: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 35rem;
+}

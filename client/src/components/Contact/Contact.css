@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+@media (min-width: 1px) {
+    .contact-wrapper {
+        background-color: #404040;
+        transition: opacity 1s ease-in-out;
+        animation: fadein 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    
+    .contact-container {
+        width: 18rem;
+    }
+    
+    .contact-title-container{
+        display: flex;
+        flex-direction: column;
+        height: 4rem;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem 0 4rem 0;
+    }
+
+    .contact-title-container h3 {
+        font-family: 'Lato';
+        color: #f7f7f7;
+        font-size: 1.7rem;
+        font-weight: 300;
+        height: 2rem;
+    } 
+}
+
+@media (min-width: 480px) {
+    .contact-container {
+        width: 26rem;
+    }
+
+    .contact-title-container {
+        height: 5.5rem;
+    }
+
+    .contact-title-container h3 {
+        font-size: 2.5rem;
+        height: 2.5rem;
+    }
+}
+    
+@media (min-width: 760px) {
+    .contact-container {
+        width: 45rem;
+    }
+}
+    
+/* @media (min-width: 1080px) {} */
+    
+@media (min-width: 1450px) {
+    .contact-container {
+        width: 45rem;
+    }
+
+    input, textarea {
+        width: 44.5rem;
+    }
+
+    #submit {
+        width: 44.9rem;
+    }
+}

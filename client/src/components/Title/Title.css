@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url(./Merriweather-Light.ttf);
+}
+
+@media (max-width: 500px) {
+  .title-container h3 {
+    font-size: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .logo-sub-title {
+    font-size: 1rem !important;
+    height: 1rem !important;
+  }
+
+  .sub-title-container {
+    width: 17rem !important;
+    height: 2.5rem !important;
+  }
+}
+
+.sub-title-container {
+    position: relative;
+    width: 21rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: dotted 1px white;
+    border-bottom: dotted 1px white;
+    margin-top: 2rem;
+    z-index: 0;
+  }
+  
+  .logo-sub-title {
+    color: white;
+    height: 1.25rem;
+    position: absolute;
+    font-size: 1.25rem;
+    user-select: none;
+    z-index: 1;
+    font-family: 'MerriWeather' !important;
+  }
+  
+  .dim-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+  }

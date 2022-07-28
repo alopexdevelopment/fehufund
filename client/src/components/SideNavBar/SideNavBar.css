@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+.side-nav-bar-wrapper, .side-nav-bar-container {
+    height: 100%;
+}
+
+.link-wrapper, .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-nav-bar-wrapper {
+    position: fixed;
+    width: 12rem;
+    background-color:#323232;
+    transition: width .75s ease-in-out;
+    transition-delay: .1s;
+    z-index: 1;
+    color: white;
+}
+
+.side-nav-bar-container {
+    transition: opacity .2s ease-in-out;
+    margin: 8rem 0;
+}
+
+.link-wrapper {
+    height: 1rem;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.link-wrapper:hover{
+    cursor: pointer;
+}
+
+.link-container {
+    height: .7rem;
+    width: 6rem;
+}
+
+.home, .team, .stats{
+    width: 3.5rem;
+}
+
+.about {
+    width: 3.9rem;
+}
+
+.resources {
+    width: 6.8rem;
+}
+
+.contact {
+    width: 5.4rem;
+}
+
+.link-container a {
+    height: 1rem;
+    font-size: 1rem;
+    position: absolute;
+    font-family: 'Lato';
+    transition: width .2s ease-in-out;
+    user-select: none;
+}
+
+span {
+    height: 3px;
+    width: 0%;
+    background-color: #4e7834;
+    transition: width .2s ease-in-out, background-color .2s ease-in-out;
+    margin: 4px 0;
+}
+
+.side-nav-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.side-nav-logo-container img {
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.strike-out {
+    width: 100%;
+    background-color: #4e7834;
+}
+
+.close-side-nav-bar {
+    width: 0rem;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+    transition-delay: .5s;
+}

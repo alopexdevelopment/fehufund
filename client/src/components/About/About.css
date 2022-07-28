@@ -1,0 +1,188 @@
+    @font-face {
+        font-family: 'Merriweather';
+        src: url(./Merriweather-Light.ttf);
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+@media (min-width: 1px) {
+    .about-wrapper{
+        width: 100%;
+        transition: opacity 1s ease-out;
+        animation: fadein 1s;
+        margin-bottom: 2rem;
+    }
+
+    .about-quote-wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 6rem 0;
+    }
+
+    .about-quote-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-quote-container p {
+        font-size: 2.5rem;
+        font-family: 'Lato';
+        text-align: start;
+        font-style: italic;
+        font-weight: 300;
+        color: #2f2f2f !important;
+    }
+
+    .about-content-container {
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-content {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-family: 'Merriweather';
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .first-para {
+        text-indent: 2rem;
+    }
+
+    .about-content p {
+        color: #2f2f2f !important;
+    }
+
+    .small-logo-wrapper-about {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .small-logo-about {
+        width: 0;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    .close {
+        opacity: 0 ;
+    }
+
+
+    .about-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-container {
+        width: 17rem;
+    }
+
+    .about-quote-container p {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .about-container {
+        width: 26rem;
+    }
+    
+    .about-quote-container p {
+        width: 100%;
+        font-size: 2rem;
+    }  
+}
+
+@media (min-width: 760px) {
+    .about-container {
+        width: 47rem;
+        padding: 0;
+    }
+
+    .about-quote-container p {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-content-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .about-content {
+        width: 20rem;
+    }
+    
+    .small-logo-wrapper-about {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .small-logo-about {
+        width: 2rem;
+        margin: .5rem 0;
+    }
+
+    .small-logo-vert-line-about {
+        border-left: solid 1px lightgray;
+        height: 8.5rem;
+    }
+}
+
+@media (min-width: 1080px) {
+    .about-container {
+        width: 64rem;
+    }
+
+    .about-content {
+        width: 29rem;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .small-logo-vert-line-about {
+        height: 9.5rem;
+    }
+}
+
+@media (min-width: 1450px) {
+    .about-container {
+        width: 80rem;
+        margin-bottom: 2rem;
+
+    }
+    
+    .about-content {
+        width: 37rem;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .small-logo-about {
+        width: 2.5rem;
+        margin: .5rem 0;
+    }
+
+    .small-logo-vert-line {
+        border-left: solid 1px lightgray;
+        height: 6.5rem;
+    }
+}

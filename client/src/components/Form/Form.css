@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+@media (min-width: 1px) {
+    .form-wrapper {
+        width: 18rem;
+        height: 25rem;
+    }
+    
+    .form-container {
+        width: 18rem;
+        height: 24rem;
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+    }
+    
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+    
+    .close {
+        opacity: 0 ;
+    }
+        
+    
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        color: #aca49c;
+        font-size: 0.875em;
+    }
+    
+    input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+        color: #bbb5af;
+    }
+    
+    input::-moz-placeholder, textarea::-moz-placeholder {
+        color: #aca49c;
+        font-size: 0.875em;
+    }
+    
+    input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+        color: #bbb5af;
+    }
+    
+    input::placeholder, textarea::placeholder {
+        color: #aca49c;
+        font-size: 0.875em;
+    }
+    
+    input:focus::placeholder, textarea::focus:placeholder {
+        color: #bbb5af;
+    }
+    
+    input::-ms-placeholder, textarea::-ms-placeholder {
+        color: #aca49c;
+        font-size: 0.875em;
+    }
+    
+    input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+        color: #bbb5af;
+    }
+    
+    /* on hover placeholder */
+    
+    input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+        color: #e2dedb;
+        font-size: 0.875em;
+    }
+    
+    input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+        color: #cbc6c1;
+    }
+    
+    input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+        color: #e2dedb;
+        font-size: 0.875em;
+    }
+    
+    input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+        color: #cbc6c1;
+    }
+    
+    input:hover::placeholder, textarea:hover::placeholder {
+        color: #e2dedb;
+        font-size: 0.875em;
+    }
+    
+    input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+        color: #cbc6c1;
+    }
+    
+    input:hover::placeholder, textarea:hover::placeholder {
+        color: #e2dedb;
+        font-size: 0.875em;
+    }
+    
+    input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+        color: #cbc6c1;
+    }
+    
+    #form {
+        position: relative;
+        width: 18rem;
+        margin: 50px auto 100px auto;
+    }
+    
+    input {
+        font-family: 'Lato', sans-serif;
+        font-size: 0.875em;
+        color: white !important;
+        width: 17.5rem;
+        height: 50px;
+        
+        background: transparent;
+        outline: none;
+        color: #726659;
+        
+        border: solid 1px #b3aca7;
+        border-bottom: none;
+        padding: 0;
+        
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+    }
+    
+    input:hover {
+        background: #b3aca7;
+        color: #e2dedb;
+    }
+    
+    #name, #email {
+        text-indent: 1rem;
+    }
+    
+    textarea {
+        width: 17.5rem;
+        height: 110px;
+        background: transparent;
+        outline: none;
+        color: #726659;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.875em;
+        border: solid 1px #b3aca7;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        padding: 1rem 0 0 0;
+        text-indent: 1rem;
+    }
+    
+    textarea:hover {
+        background: #b3aca7;
+        color: #e2dedb;
+    }
+    
+    .error-msg {
+        position: relative;
+        background-color: transparent;
+        width: 17.5rem;
+        display: flex;
+        justify-content: flex-end;
+        background-color: transparent;
+        color: lightcoral;
+        font-family: 'Lato';
+        font-weight: 300;
+        font-size: .5rem;
+        font-style: italic;
+        transition: opacity ease-in-out;
+        height: 0;
+    }
+
+    .inputs-container div {
+        position: relative;
+        top: -.8rem;
+    }
+
+    .textarea-container div {
+        position: relative;
+        top: -1.1rem;
+    }
+
+    .inputs-container, .textarea-container, .submit-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    #submit {
+        width: 17.63rem;
+        padding: 0;
+        margin-top: -5px;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.875em;
+        
+        color: #b3aca7;
+        
+        outline:none;
+        cursor: pointer;
+        
+        border: solid 1px #b3aca7;
+        border-top: none;
+    }
+    
+    #submit:hover {
+        color: #e2dedb;
+    }  
+}
+
+@media (min-width: 480px) {
+    .form-container, .form-wrapper, #form {
+        width: 26rem;
+    }
+
+    input, textarea, .error-msg {
+        width: 25.5rem;
+    }
+
+    .error-msg {
+        font-size: .7rem;
+    }
+
+    .inputs-container div {
+        top: -1rem;
+    }
+
+    .textarea-container div {
+        top: -1.2rem;
+    }
+
+    #submit {
+        width: 25.63rem;
+    }
+}
+    
+@media (min-width: 760px) {
+    .form-container, .form-wrapper, #form {
+        width: 45rem;
+    }
+
+    input, textarea, .error-msg {
+        width: 44.5rem;
+    }
+
+    .error-msg {
+        font-size: .8rem;
+    }
+
+    .inputs-container div {
+        top: -1.1rem;
+    }
+
+    .textarea-container div {
+        top: -1.4rem;
+    }
+
+    #submit {
+        width: 44.63rem;
+    }
+}
